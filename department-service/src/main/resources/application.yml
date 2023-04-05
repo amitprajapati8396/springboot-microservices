@@ -1,0 +1,28 @@
+server:
+  port: 9292
+   
+   
+spring:
+  application:
+    name:  DEPARTMENT-SERVICE 
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/testdb?currentSchema=public
+    username: postgres
+    password: Password@123
+    driverClassName: org.postgresql.Driver   
+ 
+
+
+   
+   
+   
+   
+   
+     
